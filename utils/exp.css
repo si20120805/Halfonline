@@ -1,0 +1,66 @@
+.spin{
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.75s,visibility 0.75s;
+    
+    
+    
+    }
+    
+
+
+
+.spin::after{
+
+    content:'';
+    width: 75px;
+    height: 75px;
+    border: 15px solid  black;
+    border-radius: 50%;
+
+    border-top-color: green;
+    animation: loading  1s ease infinite;
+   
+    
+
+}
+
+.spin-hiden{
+    opacity: 0;
+    visibility: hidden;
+}
+@keyframes loading {
+    from{
+        transform :rotate(0turn);
+    }
+
+    to{
+
+        transform: rotate(1turn);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.spin-hidden{
+    opacity: 0;
+    visibility: hidden;
+}

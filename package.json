@@ -1,0 +1,26 @@
+{
+  "name": "online_website",
+  "version": "1.0.0",
+  "description": "Online store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.4",
+    "nodemailer": "^6.9.0",
+    "react-helmet-async": "^1.3.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^8.0.5",
+    "router": "^1.3.7",
+    "validator": "^13.7.0"
+  }
+}
